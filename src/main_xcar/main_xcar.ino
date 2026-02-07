@@ -62,10 +62,14 @@ void driveMotor(int order)
     case 3:
       digitalWrite(PIN_D3, HIGH);
       digitalWrite(PIN_D5, HIGH);
+      delay(100);
+      stop();
       break;
     case 4:
       digitalWrite(PIN_D4, HIGH);
       digitalWrite(PIN_D6, HIGH);
+      delay(100);
+      stop();
       break;
     default:
       break;
