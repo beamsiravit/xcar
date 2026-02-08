@@ -98,10 +98,13 @@ void loop() {
           case 0x5a:
             driveMotor(4);               
             break;
-
+          case 0x1c
+            driveMotor(5);
+            break;
           default:
             driveMotor(50);
             break;
+
         }      
       
 
