@@ -71,6 +71,9 @@ void driveMotor(int order)
       delay(100);
       stop();
       break;
+    case 5: 
+      stop();
+      break;
     default:
       break;
   }
@@ -100,6 +103,7 @@ void loop() {
             driveMotor(50);
             break;
         }      
+      
 
 
 
